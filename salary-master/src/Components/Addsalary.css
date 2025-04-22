@@ -1,0 +1,46 @@
+.salary-entry-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color:  #7A73D1; /* Card color */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white; /* Text color */
+  }
+  
+  .salary-entry-container h5 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .salary-entry-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .salary-entry-container .MuiTextField-root,
+  .salary-entry-container .MuiFormControl-root {
+    background: white;
+    border-radius: 5px;
+  }
+  
+  .salary-entry-container .MuiButton-root {
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .salary-entry-container .MuiButton-containedSuccess {
+    background-color: #28a745;
+  }
+  
+  .salary-entry-container .MuiButton-containedError {
+    background-color: #dc3545;
+  }
+  
+  .salary-entry-container input[type="file"] {
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,156 @@
+.contact-page {
+    background-color: white;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .contact-header {
+    text-align: center;
+    padding: 50px 0;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center;
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Main Container */
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 30px;
+  }
+  
+  /* Contact Form */
+  .contact-form-section {
+    width: 48%;
+    background: #7A73D1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: white;
+    border: 1px solid #7A73D1;
+    color: #7A73D1;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background: black;
+    color: #7A73D1;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-form button:hover {
+    background: #7A73D1;
+    color: white;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    width: 48%;
+    background: #7A73D1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .contact-map {
+    width: 100%;
+    height: 200px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  .contact-footer {
+    background: #7A73D1;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-content, .footer-links, .footer-contact {
+    width: 30%;
+  }
+  
+  .footer-content h3 {
+    color: white;
+  }
+  
+  .footer-links p, 
+  .footer-contact p {
+    color: white;
+  }
+  
+  .social-icons i {
+    margin-right: 10px;
+    color: white;
+  }
+  .contact-details p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contact-icon {
+    font-size: 1.2rem;
+    color: black; /* Icons are now black */
+    cursor: pointer;
+  }
+  
+  .contact-details a {
+    text-decoration: none;
+    color: black; /* Text also black */
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-details a:hover {
+    color: #23486A; /* Change to gray on hover */
+  }
+  .footer-links p a {
+    color: white; /* Default color black */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .footer-links p a:hover {
+    color: #23486A; /* Change to #23486A on hover */
+  }
+  .footer-contact a {
+    color: white; /* Change Mangalore text to white */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-contact a .contact-icon {
+    color: white; /* Change location icon to white */
+  }
+  
+  
+  
+  

@@ -1,0 +1,140 @@
+/* General Styles */
+body, html {
+  background-color: white; /* Light Green */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Root container */
+#root {
+  background-color: white; /* Ensures React root element matches the background */
+  min-height: 100vh; /* Ensures full height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* About Us */
+.about {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Know More Button */
+.about button {
+  background-color: #7A73D1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.about button:hover {
+  background-color: #7A73D1;
+}
+
+/* Why Us */
+.why-us {
+  background: #7A73D1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.why-cards, h3 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Services */
+.services {
+  padding: 20px;
+  text-align: center;
+}
+
+.service-boxes {
+  background: #7A73D1; /* Teal Green Background */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.service {
+  background: white;
+  color: black;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Service Icons */
+.service-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* Service Title */
+.service h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Service Description */
+.service p {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background: #7A73D1;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  margin: 20px 0 0 0; /* Adds space only on top */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section {
+  margin: 5px;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-size: 12px;
+}

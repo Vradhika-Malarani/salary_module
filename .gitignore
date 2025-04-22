@@ -1,0 +1,31 @@
+# Root .gitignore
+
+# Ignore node_modules in both frontend and backend
+salary-backend/node_modules/
+salary-master/node_modules/
+
+# Ignore build artifacts
+salary-master/build/
+salary-backend/dist/
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# dotenv files (environment variables)
+**/.env
+**/.env.*.local
+**/.env.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Optional: IDE/editor settings
+.vscode/
+.idea/
+
+# Misc
+*.log

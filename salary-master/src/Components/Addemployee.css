@@ -1,0 +1,48 @@
+.employee-registration-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #6e64c9, #8b7ffb);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.employee-registration-container h5 {
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.MuiTextField-root,
+.MuiFormControl-root {
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.MuiInputLabel-root {
+  color: #555 !important;
+}
+
+.MuiOutlinedInput-root input {
+  color: #000;
+}
+
+.submit-button {
+  background-color: #2E6A5E !important;
+  color: white;
+  font-weight: 600;
+}
+
+.reset-button {
+  background-color: #D9534F !important;
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .employee-registration-container {
+    padding: 20px;
+  }
+}

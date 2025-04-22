@@ -1,0 +1,86 @@
+/* Global Reset to Remove Horizontal Scroll */
+html, body {
+  overflow-x: hidden !important; /* Hides horizontal scroll */
+  width: 100vw !important; /* Prevents overflow */
+  margin: 0;
+  padding: 0;
+  background: white !important; /* White background */
+}
+
+/* Sidebar */
+.MuiDrawer-paper {
+  width: 240px !important;
+  background: #7A73D1 !important; /* Dark Teal Green */
+  color: white !important;
+  border-right: 1px solid #7A73D1; /* Keeps border color consistent */
+  position: fixed !important; /* Keeps sidebar fixed */
+  height: 100vh !important; /* Ensures full height */
+  overflow: hidden !important; /* Prevents unnecessary scrolling */
+}
+
+/* Sidebar Icons & Text */
+.MuiListItemIcon-root,
+.MuiListItemText-primary {
+  color: white !important; /* White text/icons for sidebar */
+}
+
+/* Navbar */
+.MuiAppBar-root {
+  background: white !important;
+  color: #7A73D1 !important;
+  box-shadow: none !important;
+  border-bottom: 2px solid #7A73D1 !important; /* Dark teal border */
+  width: calc(100% - 240px) !important; /* Fits screen without extra scroll */
+  left: 240px !important; /* Aligns properly with sidebar */
+  position: fixed !important;
+}
+
+/* Main Content */
+.dashboard-container {
+  padding: 20px;
+  padding-top: 80px;
+  background: white !important;
+  /* width: calc(100vw - 240px) !important;  */
+  margin-left: 240px !important; 
+  height: calc(100vw - 64px) !important; /* Ensures full height */
+  overflow-y: auto !important; /* Allows vertical scrolling */
+  overflow-x: hidden !important; /* Completely removes horizontal scrolling */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Stats Cards */
+.stats-card {
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #7A73D1!important; /* Dark teal border */
+}
+
+/* Cards with Dark Teal Green */
+.card-green {
+  background: #7A73D1 !important; /* Dark teal green */
+  color: white !important;
+  border-radius: 8px;
+}
+
+/* Cards with White */
+.card-white {
+  background: white !important;
+  color: #7A73D1 !important; /* Dark teal green text */
+  border: 2px solid #7A73D1 !important;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  background: #7A73D1!important;
+  color: white !important;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 240px !important;
+  width: 240px !important;
+  border-top: 2px solid white !important;
+}
